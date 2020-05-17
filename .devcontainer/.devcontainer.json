@@ -1,15 +1,20 @@
 {
     "name": "Rust",
     "dockerFile": "Dockerfile",
+    "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
     "extensions": [
         "github.github-vscode-theme",
-        "rust-lang.rust"
+        "rust-lang.rust",
+		"bungcip.better-toml",
+		"vadimcn.vscode-lldb"
     ],
     "settings": {
         "workbench.colorTheme": "GitHub Light",
         "editor.fontSize": 13,
         "debug.console.fontSize": 13,
         "markdown.preview.fontSize": 13,
-        "terminal.integrated.fontSize": 13
+        "terminal.integrated.fontSize": 13,
+        "terminal.integrated.shell.linux": "/bin/bash",
+		"lldb.executable": "/usr/bin/lldb"
     }
 }
