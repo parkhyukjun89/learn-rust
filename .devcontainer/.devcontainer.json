@@ -5,8 +5,8 @@
     "extensions": [
         "github.github-vscode-theme",
         "rust-lang.rust",
-		"bungcip.better-toml",
-		"vadimcn.vscode-lldb"
+        "bungcip.better-toml",
+        "vadimcn.vscode-lldb"
     ],
     "settings": {
         "workbench.colorTheme": "GitHub Light",
