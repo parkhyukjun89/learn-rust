@@ -1,0 +1,15 @@
+{
+    "name": "Rust",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "github.github-vscode-theme",
+        "rust-lang.rust"
+    ],
+    "settings": {
+        "workbench.colorTheme": "GitHub Light",
+        "editor.fontSize": 13,
+        "debug.console.fontSize": 13,
+        "markdown.preview.fontSize": 13,
+        "terminal.integrated.fontSize": 13
+    }
+}
